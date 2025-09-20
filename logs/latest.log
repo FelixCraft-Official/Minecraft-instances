@@ -1,0 +1,444 @@
+[19:53:13] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.14.23
+[19:53:13] [main/INFO]: Dependencies overridden for minecraft, lambdynlights, fabricloader, debugify
+[19:53:13] [main/WARN]: Warnings were found!
+ - 'Minecraft' (minecraft) 1.20.1 recommends any version after 5.4.1 of Fabulously Optimized, which is missing!
+	 - You should install any version after 5.4.1 of Fabulously Optimized for the optimal experience.
+[19:53:13] [main/INFO]: Loading 149 mods:
+	- advancementinfo 1.20-fabric0.83.0-1.4
+	- animatica 0.6+1.20
+	- bettermounthud 1.2.2
+	- borderlessmining 1.1.8+1.20.1
+	- capes 1.5.2+1.20
+	- citresewn 1.1.3+1.20
+	   \-- citresewn-defaults 1.1.3+1.20
+	- cloth-config 11.1.106
+	   \-- cloth-basic-math 0.6.1
+	- continuity 3.0.0-beta.4+1.20.1
+	- controlify 1.6.0+1.20
+	   |-- dev_isxander_sdl2-jni 2.28.2-26
+	   |-- org_hid4java_hid4java 0.7.0
+	   \-- org_quiltmc_quilt-json5 1.0.3
+	- debugify 1.20.1+2.0
+	- dynamic_fps 3.2.1
+	- e4mc_minecraft 4.0.1
+	- enhancedblockentities 0.9+1.20
+	   |-- advanced_runtime_resource_pack 0.6.7
+	   \-- spruceui 5.0.0+1.20
+	- entity_model_features 1.0.2
+	- entity_texture_features 4.5.1
+	   \-- org_apache_httpcomponents_httpmime 4.5.10
+	- entityculling 1.6.2-mc1.20.1
+	- fabric-api 0.90.0+1.20.1
+	   |-- fabric-api-lookup-api-v1 1.6.35+4d8536c977
+	   |-- fabric-biome-api-v1 13.0.12+215bbe9677
+	   |-- fabric-block-api-v1 1.0.10+92a0d36777
+	   |-- fabric-block-view-api-v2 1.0.0+92a0d36777
+	   |-- fabric-blockrenderlayer-v1 1.1.40+b3afc78b77
+	   |-- fabric-client-tags-api-v1 1.1.1+97bb207577
+	   |-- fabric-command-api-v1 1.2.33+f71b366f77
+	   |-- fabric-command-api-v2 2.2.12+b3afc78b77
+	   |-- fabric-commands-v0 0.2.50+df3654b377
+	   |-- fabric-containers-v0 0.1.63+df3654b377
+	   |-- fabric-content-registries-v0 4.0.10+57aed33f77
+	   |-- fabric-convention-tags-v1 1.5.4+a1a980da77
+	   |-- fabric-crash-report-info-v1 0.2.18+aeb40ebe77
+	   |-- fabric-data-generation-api-v1 12.3.2+d7b148e077
+	   |-- fabric-dimensions-v1 2.1.53+8536527b77
+	   |-- fabric-entity-events-v1 1.5.22+b3afc78b77
+	   |-- fabric-events-interaction-v0 0.6.1+e91849a877
+	   |-- fabric-events-lifecycle-v0 0.2.62+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.38+b04edc7a77
+	   |-- fabric-item-api-v1 2.1.27+b3afc78b77
+	   |-- fabric-item-group-api-v1 4.0.11+d7b148e077
+	   |-- fabric-keybindings-v0 0.2.34+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.21+b3afc78b77
+	   |-- fabric-loot-api-v2 1.2.0+96dfa95977
+	   |-- fabric-loot-tables-v1 1.1.44+9e7660c677
+	   |-- fabric-message-api-v1 5.1.8+d7b148e077
+	   |-- fabric-mining-level-api-v1 2.1.49+b3afc78b77
+	   |-- fabric-model-loading-api-v1 1.0.2+709a987177
+	   |-- fabric-models-v0 0.4.1+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.10+eeb8eb3677
+	   |-- fabric-networking-v0 0.3.50+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.1+6beca84877
+	   |-- fabric-particles-v1 1.1.1+201a23a077
+	   |-- fabric-recipe-api-v1 1.0.20+b3afc78b77
+	   |-- fabric-registry-sync-v0 2.3.2+4df89eb277
+	   |-- fabric-renderer-api-v1 3.2.0+39a511ba77
+	   |-- fabric-renderer-indigo 1.5.0+39a511ba77
+	   |-- fabric-renderer-registries-v1 3.2.45+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.36+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.27+b3afc78b77
+	   |-- fabric-rendering-v0 1.1.48+df3654b377
+	   |-- fabric-rendering-v1 3.0.7+b3afc78b77
+	   |-- fabric-resource-conditions-api-v1 2.3.6+d7b148e077
+	   |-- fabric-resource-loader-v0 0.11.9+132c48c177
+	   |-- fabric-screen-api-v1 2.0.7+b3afc78b77
+	   |-- fabric-screen-handler-api-v1 1.3.29+b3afc78b77
+	   |-- fabric-sound-api-v1 1.0.12+b3afc78b77
+	   |-- fabric-transfer-api-v1 3.3.1+195226a777
+	   \-- fabric-transitive-access-wideners-v1 4.3.0+6c31357e77
+	- fabric-language-kotlin 1.10.10+kotlin.1.9.10
+	   |-- org_jetbrains_kotlin_kotlin-reflect 1.9.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 1.9.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 1.9.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 1.9.10
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.22.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.7.3
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.7.3
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.4.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.6.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.6.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.6.0
+	- fabricloader 0.14.23
+	- fabricskyboxes 0.7.3+mc1.20.1
+	- fabrishot 1.10.0
+	- fadeless 1.0.1
+	- fastquit 3.0.0+1.20+
+	- ferritecore 6.0.0
+	- fsb-interop 1.3.6+mc1.20.1-build.50
+	- immediatelyfast 1.2.6+1.20.2
+	   |-- com_github_llamalad7_mixinextras 0.2.0-rc.5
+	   \-- net_lenni0451_reflect 1.2.4
+	- indium 1.0.27+mc1.20.1
+	- iris 1.7.6+mc1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- io_github_douira_glsl-transformer 2.0.1
+	   |-- org_anarres_jcpp 1.4.14
+	   \-- org_antlr_antlr4-runtime 4.13.1
+	- isxander-main-menu-credits 1.1.2
+	- java 17
+	- lambdynlights 2.3.2+1.20.1
+	   |-- pride 1.2.0+1.19.4
+	   \-- spruceui 5.0.0+1.20
+	- languagereload 1.5.9+1.20.1
+	   \-- com_github_llamalad7_mixinextras 0.2.0-rc.5
+	- lithium 0.11.2
+	- memoryleakfix 1.1.2
+	- minecraft 1.20.1
+	- mixintrace 1.1.1+1.17
+	- modelfix 1.14
+	- modernfix 5.8.1+mc1.20.1
+	- modmenu 7.2.2
+	- morechathistory 1.1.1
+	- moreculling 1.20.1-0.19.0
+	   \-- conditional-mixin 0.3.2
+	- nochatreports 1.20.1-v2.2.2
+	- optigui 2.1.5
+	   |-- optiglue 2.1.5-mc.1.19.3
+	   |-- org_apache_commons_commons-text 1.10.0
+	   \-- org_ini4j_ini4j 0.5.4
+	- puzzle 1.5.2+1.20
+	   |-- midnightlib 1.4.1
+	   |-- puzzle-base 1.5.2+1.20
+	   |-- puzzle-gui 1.5.2+1.20
+	   |-- puzzle-models 1.5.2+1.20
+	   \-- puzzle-splashscreen 1.5.2+1.20
+	- reeses-sodium-options 1.6.5+mc1.20.1-build.95
+	- rrls 3.2.0-1.20.1-fabric
+	- sodium 0.5.3
+	- sodium-extra 0.5.1+mc1.20.1-build.112
+	   |-- caffeineconfig 1.3.0+1.17
+	   \-- crowdin-translate 1.4+1.19.3
+	- yet_another_config_lib_v3 3.2.1+1.20
+	   |-- com_twelvemonkeys_common_common-image 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_common_common-io 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_common_common-lang 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.10.0-SNAPSHOT
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- yosbr 0.1.2
+	- zoomify 2.11.2
+	   |-- com_akuleshov7_ktoml-core-jvm 0.4.1
+	   |-- dev_isxander_settxi_settxi-core 2.10.6
+	   \-- dev_isxander_settxi_settxi-kotlinx-serialization 2.10.6
+[19:53:13] [main/INFO]: Applying default options... (YOSBR)
+[19:53:13] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/User/AppData/Roaming/ModrinthApp/meta/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[19:53:14] [main/INFO]: Compatibility level set to JAVA_16
+[19:53:14] [main/INFO]: Compatibility level set to JAVA_17
+[19:53:14] [main/INFO]: Preloading Debugify
+[19:53:14] [main/WARN]: Reference map 'entity_model_features_fabric_1.20-fabric-refmap.json' for entity_model_features.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:53:14] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 1 override(s) found
+[19:53:15] [main/INFO]: Loaded configuration file for ModernFix 5.8.1+mc1.20.1: 52 options available, 1 override(s) found
+[19:53:15] [main/WARN]: Option 'mixin.perf.dynamic_resources' overriden (by user configuration) to 'true'
+[19:53:15] [main/INFO]: Applying Nashorn fix
+[19:53:15] [main/INFO]: Loaded configuration file for Sodium: 41 options available, 3 override(s) found
+[19:53:15] [main/INFO]: Loaded configuration file for Sodium Extra: 32 options available, 0 override(s) found
+[19:53:15] [main/WARN]: Error loading class: net/coderbot/iris/gui/element/widget/BaseOptionElementWidget (java.lang.ClassNotFoundException: net/coderbot/iris/gui/element/widget/BaseOptionElementWidget)
+[19:53:15] [main/WARN]: @Mixin target net.coderbot.iris.gui.element.widget.BaseOptionElementWidget was not found controlify.mixins.json:compat.iris.BaseOptionElementWidgetMixin from mod controlify
+[19:53:15] [main/WARN]: Error loading class: de/maxhenkel/voicechat/voice/client/KeyEvents (java.lang.ClassNotFoundException: de/maxhenkel/voicechat/voice/client/KeyEvents)
+[19:53:15] [main/WARN]: Error loading class: de/maxhenkel/voicechat/voice/client/PTTKeyHandler (java.lang.ClassNotFoundException: de/maxhenkel/voicechat/voice/client/PTTKeyHandler)
+[19:53:15] [main/WARN]: Force disabled MC-121772 because it only applies to OS: MAC
+[19:53:15] [main/WARN]: Force disabled MC-122477 because it only applies to OS: LINUX
+[19:53:15] [main/WARN]: Force disabled MC-59810 because it only applies to OS: MAC
+[19:53:15] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/vertex/buffer/SodiumBufferBuilder (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/vertex/buffer/SodiumBufferBuilder)
+[19:53:15] [main/WARN]: @Mixin target me.jellysquid.mods.sodium.client.render.vertex.buffer.SodiumBufferBuilder was not found mixins.iris.compat.sodium.json:vertex_format.MixinSodiumBufferBuilder from mod iris
+[19:53:15] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[19:53:15] [main/WARN]: Error loading class: net/fabricmc/fabric/impl/client/model/ModelLoadingRegistryImpl$LoaderInstance (java.lang.ClassNotFoundException: net/fabricmc/fabric/impl/client/model/ModelLoadingRegistryImpl$LoaderInstance)
+[19:53:15] [main/WARN]: @Mixin target net.fabricmc.fabric.impl.client.model.ModelLoadingRegistryImpl$LoaderInstance was not found modernfix-fabric.mixins.json:perf.dynamic_resources.LoaderInstanceMixin from mod modernfix
+[19:53:15] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/occlusion/BlockOcclusionCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/occlusion/BlockOcclusionCache)
+[19:53:15] [main/WARN]: Force-disabling mixin 'features.render.entity.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[19:53:15] [main/WARN]: Force-disabling mixin 'features.render.entity.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[19:53:15] [main/WARN]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[19:53:15] [main/WARN]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[19:53:15] [main/WARN]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [iris]) disables it and children
+[19:53:15] [main/WARN]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[19:53:15] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[19:53:15] [main/WARN]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[19:53:15] [main/INFO]: [MemoryLeakFix] Will be applying 3 memory leak fixes!
+[19:53:15] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [targetEntityLeak, biomeTemperatureLeak, hugeScreenshotLeak]
+[19:53:16] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/occlusion/BlockOcclusionCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/occlusion/BlockOcclusionCache)
+[19:53:16] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/occlusion/BlockOcclusionCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/occlusion/BlockOcclusionCache)
+[19:53:16] [main/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
+[19:53:16] [main/INFO]: I used the json to destroy the json
+[19:53:16] [main/INFO]: Searching for graphics cards...
+[19:53:16] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.0-rc.5).
+[19:53:16] [main/INFO]: Found graphics card: GraphicsAdapterInfo[vendor=AMD, name=AMD Radeon RX 7600, version=DriverVersion=32.0.21025.10016]
+[19:53:16] [main/INFO]: Found graphics card: GraphicsAdapterInfo[vendor=UNKNOWN, name=USB Mobile Monitor Virtual Display, version=DriverVersion=2.0.0.1]
+[19:53:16] [main/INFO]: Found graphics card: GraphicsAdapterInfo[vendor=UNKNOWN, name=AskLinkIddDriver Device, version=DriverVersion=18.36.3.757]
+[19:53:17] [main/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[19:53:18] [main/INFO]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.class_2540
+[19:53:18] [main/INFO]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to mdff2c0d$nochatreports$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[19:53:18] [main/INFO]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to mdff2c0d$nochatreports$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[19:53:19] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[19:53:19] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[19:53:19] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[19:53:21] [main/INFO]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.class_3244
+[19:53:22] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[19:53:22] [main/INFO]: Vanilla bootstrap took 4622 milliseconds
+[19:53:23] [Render thread/INFO]: Mixing client.MixinMinecraft from mixins/common/nochatreports.mixins.json into net.minecraft.class_310
+[19:53:23] [Render thread/INFO]: Mixing client.MixinMinecraft from mixins/fabric/nochatreports-fabric.mixins.json into net.minecraft.class_310
+[19:53:23] [Render thread/INFO]: Mixing client.MixinTitleScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_442
+[19:53:23] [Render thread/INFO]: Mixing client.MixinChatScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_408
+[19:53:23] [Render thread/INFO]: Renaming synthetic method lambda$onInit$4()Lnet/minecraft/class_2561; to mdff2c0d$nochatreports$lambda$onInit$4$3 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[19:53:23] [Render thread/INFO]: Renaming synthetic method lambda$onInit$3(Lnet/minecraft/class_4185;)V to mdff2c0d$nochatreports$lambda$onInit$3$4 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[19:53:23] [Render thread/INFO]: Renaming synthetic method lambda$onInit$2()Lnet/minecraft/class_2561; to mdff2c0d$nochatreports$lambda$onInit$2$5 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[19:53:23] [Render thread/INFO]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/class_4185;)V to mdff2c0d$nochatreports$lambda$onInit$1$6 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[19:53:23] [Render thread/INFO]: Renaming synthetic method lambda$onBeforeMessage$0(Ljava/lang/String;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lcom/aizistral/nochatreports/common/encryption/Encryptor;)V to mdff2c0d$nochatreports$lambda$onBeforeMessage$0$7 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[19:53:23] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:53:23] [Render thread/INFO]: Mixing client.MixinYggdrasilUserApiService from mixins/common/nochatreports.mixins.json into com.mojang.authlib.yggdrasil.YggdrasilUserApiService
+[19:53:24] [Render thread/INFO]: Setting user: frame121
+[19:53:24] [Render thread/INFO]: Bypassed Mojang DFU
+[19:53:24] [Render thread/INFO]: Mixing client.MixinToastComponent from mixins/common/nochatreports.mixins.json into net.minecraft.class_374
+[19:53:24] [Render thread/INFO]: Saving config because the loaded bug fixes are different to stored json.
+[19:53:24] [Render thread/INFO]: Saving Debugify
+[19:53:24] [Render thread/INFO]: Enabled 11 bug fixes: [MC-577, MC-59810, MC-89146, MC-90683, MC-112730, MC-121772, MC-122477, MC-140646, MC-199467, MC-237493, MC-263865]
+[19:53:24] [Render thread/INFO]: Successfully Debugify'd your game!
+[19:53:25] [Render thread/INFO]: Fadeless is running
+[19:53:25] [Render thread/INFO]: KONNICHIWA ZA WARUDO!
+[19:53:25] [Render thread/INFO]: Default JVM text encoding is: x-windows-874
+[19:53:25] [Render thread/INFO]: Reading config file NoChatReports/NCR-Common.json...
+[19:53:25] [Render thread/INFO]: Reading config file NoChatReports/NCR-Client.json...
+[19:53:25] [Render thread/INFO]: Reading config file NoChatReports/NCR-ServerPreferences.json...
+[19:53:25] [Render thread/INFO]: Reading config file NoChatReports/NCR-Encryption.json...
+[19:53:25] [Render thread/INFO]: Writing config file NoChatReports/NCR-Common.json...
+[19:53:25] [Render thread/INFO]: Writing config file NoChatReports/NCR-Client.json...
+[19:53:25] [Render thread/INFO]: Writing config file NoChatReports/NCR-ServerPreferences.json...
+[19:53:25] [Render thread/INFO]: Writing config file NoChatReports/NCR-Encryption.json...
+[19:53:25] [Render thread/INFO]: Client initialization...
+[19:53:25] [Render thread/INFO]: Mixing client.MixinClientPacketListener from mixins/common/nochatreports.mixins.json into net.minecraft.class_634
+[19:53:25] [Render thread/INFO]: AdvancementInfo initialized
+[19:53:25] [Render thread/INFO]: Trying to read config file...
+[19:53:25] [Render thread/INFO]: A config file was found, loading it..
+[19:53:25] [Render thread/INFO]: Successfully loaded config file.
+[19:53:25] [Render thread/INFO]: [citresewn] Registering CIT Conditions
+[19:53:25] [Render thread/INFO]: [citresewn] Registering CIT Types
+[19:53:25] [Render thread/INFO]: Pre-initializing Controlify...
+[19:53:26] [Render thread/INFO]: Re-caching descriptions because json doesn't match config.
+[19:53:26] [Render thread/INFO]: Connecting to 'bugs.mojang.com' to cache bug descriptions!
+[19:53:26] [Render thread/INFO]: Loading Entity Model Features, did you know if you turn off the lights and whisper 'OptiFine' 3 times you will lose 20fps.
+[19:53:26] [Render thread/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/immediate/model/ModelPartData (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/immediate/model/ModelPartData)
+[19:53:26] [Render thread/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/immediate/model/ModelPartData (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/immediate/model/ModelPartData)
+[19:53:26] [Render thread/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/immediate/model/ModelPartData (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/immediate/model/ModelPartData)
+[19:53:26] [Render thread/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/immediate/model/ModelPartData (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/immediate/model/ModelPartData)
+[19:53:26] [Render thread/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/immediate/model/ModelPartData (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/immediate/model/ModelPartData)
+[19:53:26] [Render thread/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/immediate/model/EntityRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/immediate/model/EntityRenderer)
+[19:53:26] [Render thread/INFO]: Loading Entity Texture Features, hello there!
+[19:53:26] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[19:53:26] [Render thread/INFO]: [FastQuit] Initialized
+[19:53:26] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: com.google.gson.JsonSyntaxException: Expected a com.google.gson.JsonObject but was com.google.gson.JsonPrimitive; at path $
+[19:53:26] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1010)
+[19:53:26] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at com.google.gson.Gson.fromJson(Gson.java:1214)
+[19:53:26] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at com.google.gson.Gson.fromJson(Gson.java:1124)
+[19:53:26] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at com.google.gson.Gson.fromJson(Gson.java:1034)
+[19:53:26] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at com.google.gson.Gson.fromJson(Gson.java:969)
+[19:53:26] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at dev.isxander.debugify.client.utils.BugFixDescriptionCache.lambda$cacheDescriptions$0(BugFixDescriptionCache.java:59)
+[19:53:26] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+[19:53:26] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source)
+[19:53:26] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+[19:53:26] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+[19:53:26] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+[19:53:26] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+[19:53:26] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[19:53:26] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
+[19:53:26] [Render thread/INFO]: [LambDynLights] Configuration loaded.
+[19:53:27] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: com.google.gson.JsonSyntaxException: Expected a com.google.gson.JsonObject but was com.google.gson.JsonPrimitive; at path $
+[19:53:27] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1010)
+[19:53:27] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at com.google.gson.Gson.fromJson(Gson.java:1214)
+[19:53:27] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at com.google.gson.Gson.fromJson(Gson.java:1124)
+[19:53:27] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at com.google.gson.Gson.fromJson(Gson.java:1034)
+[19:53:27] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at com.google.gson.Gson.fromJson(Gson.java:969)
+[19:53:27] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at dev.isxander.debugify.client.utils.BugFixDescriptionCache.lambda$cacheDescriptions$0(BugFixDescriptionCache.java:59)
+[19:53:27] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+[19:53:27] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source)
+[19:53:27] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+[19:53:27] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+[19:53:27] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+[19:53:27] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+[19:53:27] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[19:53:27] [ForkJoinPool.commonPool-worker-1/ERROR]: Giving up trying to cache bug descriptions. Consecutive network failures.
+[19:53:27] [Render thread/INFO]: OptiGlue initialized.
+[19:53:27] [Render thread/INFO]: OptiGUI initialized.
+[19:53:27] [Render thread/INFO]: Instancing error handler class dev.isxander.debugify.mixinplugin.DebugifyErrorHandler
+[19:53:27] [Render thread/ERROR]: Mixin apply for mod iris failed mixins.iris.compat.sodium.json:options.MixinSodiumGameOptions from mod iris -> me.jellysquid.mods.sodium.client.gui.SodiumGameOptions: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException Critical injection failure: @Inject annotation on iris$writeIrisConfig could not find any targets matching 'writeToDisk' in me.jellysquid.mods.sodium.client.gui.SodiumGameOptions. No refMap loaded. [PREINJECT Applicator Phase -> mixins.iris.compat.sodium.json:options.MixinSodiumGameOptions from mod iris -> Prepare Injections ->  -> handler$cal000$iris$writeIrisConfig(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V -> Parse]
+org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Critical injection failure: @Inject annotation on iris$writeIrisConfig could not find any targets matching 'writeToDisk' in me.jellysquid.mods.sodium.client.gui.SodiumGameOptions. No refMap loaded. [PREINJECT Applicator Phase -> mixins.iris.compat.sodium.json:options.MixinSodiumGameOptions from mod iris -> Prepare Injections ->  -> handler$cal000$iris$writeIrisConfig(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V -> Parse]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.validateTargets(InjectionInfo.java:656) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.findTargets(InjectionInfo.java:587) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:330) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:316) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:308) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo.<init>(CallbackInjectionInfo.java:46) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at jdk.internal.reflect.GeneratedConstructorAccessor60.newInstance(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:?]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo$InjectorEntry.create(InjectionInfo.java:149) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.parse(InjectionInfo.java:708) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1329) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:1053) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:395) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:327) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.14.23.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.loadConfig(SodiumClientMod.java:53) ~[sodium-fabric-mc1.20.1-0.5.3.jar:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.onInitializeClient(SodiumClientMod.java:30) ~[sodium-fabric-mc1.20.1-0.5.3.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:383) ~[fabric-loader-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53) ~[fabric-loader-0.14.23.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:458) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:211) ~[1.20.1-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.23.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63) ~[theseus.jar:?]
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28) ~[theseus.jar:?]
+[19:53:27] [Render thread/ERROR]: Failed to load configuration file
+java.lang.RuntimeException: Mixin transformation of me.jellysquid.mods.sodium.client.gui.SodiumGameOptions failed
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:427) ~[fabric-loader-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.14.23.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.loadConfig(SodiumClientMod.java:53) ~[sodium-fabric-mc1.20.1-0.5.3.jar:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.onInitializeClient(SodiumClientMod.java:30) ~[sodium-fabric-mc1.20.1-0.5.3.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:383) ~[fabric-loader-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53) ~[fabric-loader-0.14.23.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:458) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:211) ~[1.20.1-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.23.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63) ~[theseus.jar:?]
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28) ~[theseus.jar:?]
+Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.14.23.jar:?]
+	... 19 more
+Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [mixins.iris.compat.sodium.json:options.MixinSodiumGameOptions from mod iris] from phase [DEFAULT] in config [mixins.iris.compat.sodium.json] FAILED during APPLY
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:638) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinApplyError(MixinProcessor.java:589) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:379) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.14.23.jar:?]
+	... 19 more
+Caused by: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Critical injection failure: @Inject annotation on iris$writeIrisConfig could not find any targets matching 'writeToDisk' in me.jellysquid.mods.sodium.client.gui.SodiumGameOptions. No refMap loaded. [PREINJECT Applicator Phase -> mixins.iris.compat.sodium.json:options.MixinSodiumGameOptions from mod iris -> Prepare Injections ->  -> handler$cal000$iris$writeIrisConfig(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V -> Parse]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.validateTargets(InjectionInfo.java:656) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.findTargets(InjectionInfo.java:587) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:330) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:316) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:308) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo.<init>(CallbackInjectionInfo.java:46) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at jdk.internal.reflect.GeneratedConstructorAccessor60.newInstance(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:?]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo$InjectorEntry.create(InjectionInfo.java:149) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.parse(InjectionInfo.java:708) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1329) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:1053) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:395) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:327) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.14.23.jar:?]
+	... 19 more
+[19:53:27] [Render thread/ERROR]: Using default configuration file in read-only mode
+[19:53:27] [Render thread/INFO]: Instancing error handler class dev.isxander.debugify.mixinplugin.DebugifyErrorHandler
+[19:53:27] [Render thread/ERROR]: Mixin apply for mod iris failed mixins.iris.compat.sodium.json:options.MixinSodiumGameOptions from mod iris -> me.jellysquid.mods.sodium.client.gui.SodiumGameOptions: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException Critical injection failure: @Inject annotation on iris$writeIrisConfig could not find any targets matching 'writeToDisk' in me.jellysquid.mods.sodium.client.gui.SodiumGameOptions. No refMap loaded. [PREINJECT Applicator Phase -> mixins.iris.compat.sodium.json:options.MixinSodiumGameOptions from mod iris -> Prepare Injections ->  -> handler$cal000$iris$writeIrisConfig(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V -> Parse]
+org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Critical injection failure: @Inject annotation on iris$writeIrisConfig could not find any targets matching 'writeToDisk' in me.jellysquid.mods.sodium.client.gui.SodiumGameOptions. No refMap loaded. [PREINJECT Applicator Phase -> mixins.iris.compat.sodium.json:options.MixinSodiumGameOptions from mod iris -> Prepare Injections ->  -> handler$cal000$iris$writeIrisConfig(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V -> Parse]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.validateTargets(InjectionInfo.java:656) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.findTargets(InjectionInfo.java:587) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:330) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:316) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:308) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo.<init>(CallbackInjectionInfo.java:46) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at jdk.internal.reflect.GeneratedConstructorAccessor60.newInstance(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:?]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo$InjectorEntry.create(InjectionInfo.java:149) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.parse(InjectionInfo.java:708) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1329) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:1053) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:395) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:327) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.14.23.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.loadConfig(SodiumClientMod.java:58) ~[sodium-fabric-mc1.20.1-0.5.3.jar:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.onInitializeClient(SodiumClientMod.java:30) ~[sodium-fabric-mc1.20.1-0.5.3.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:383) ~[fabric-loader-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53) ~[fabric-loader-0.14.23.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:458) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:211) ~[1.20.1-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.23.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.23.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63) ~[theseus.jar:?]
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28) ~[theseus.jar:?]
+[19:53:27] [Render thread/INFO]: [FastQuit] Exiting FastQuit.
